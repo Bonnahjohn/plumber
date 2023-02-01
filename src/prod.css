@@ -787,6 +787,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .list-inside {
   list-style-position: inside;
 }
@@ -1219,6 +1223,10 @@ video {
 
 .delay-\[4s\] {
   transition-delay: 4s;
+}
+
+.delay-500 {
+  transition-delay: 500ms;
 }
 
 .hover\:bg-\[rgba\(0\2c 0\2c 0\2c 0\.3\)\]:hover {
