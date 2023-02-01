@@ -1205,6 +1205,18 @@ video {
   transition-delay: 700ms;
 }
 
+.delay-1000 {
+  transition-delay: 1000ms;
+}
+
+.delay-150 {
+  transition-delay: 150ms;
+}
+
+.hover\:bg-\[rgba\(0\2c 0\2c 0\2c 0\.3\)\]:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
