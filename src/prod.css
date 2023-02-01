@@ -1340,6 +1340,11 @@ video {
     line-height: 2.5rem;
   }
 
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .md\:leading-\[30px\] {
     line-height: 30px;
   }
@@ -1474,6 +1479,11 @@ video {
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:leading-\[70px\] {
