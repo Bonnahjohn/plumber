@@ -1,0 +1,10 @@
+nav {
+  background-color: transparent;
+  transition: 1s ease;
+}
+
+.change {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5%);
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.8);
+}
