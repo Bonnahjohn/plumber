@@ -30,9 +30,9 @@
           class="focus:outline-none block lg:hidden px-0"
           id="togger"
         >
-          <div class="bg-red-600 h-1 w-5 mb-1"></div>
-          <div class="bg-red-600 h-1 w-5 mb-1"></div>
-          <div class="bg-red-600 h-1 w-5 mb-1"></div>
+          <div class="bg-slate-600 h-1 w-5 mb-1"></div>
+          <div class="bg-slate-600 h-1 w-5 mb-1"></div>
+          <div class="bg-slate-600 h-1 w-5 mb-1"></div>
           <!--mmmmmmmmmmmmmmmmmm  mobile menus mmmmmmmmmmmmmmmmm -->
           <div
             class="absolute w-full right-full top-full h-screen delay-700 bg-neutral-800 -mt-1 -z-[999]"
@@ -98,7 +98,7 @@
       </section>
       <section class="mt-24 container mx-auto lg:px-11 px-5 md:px-5">
         <div
-          class="grid md:grid-cols-3 grid-rows-1 md:gap-6 gap-y-4 lg:divide-x-2 lg:divide-y-0 divide-y-2"
+          class="grid md:grid-cols-3 grid-rows-1 md:gap-6 gap-y-4 lg:divide-x-2 lg:divide-y-0 md:divide-y-0 divide-y-2"
         >
           <div class="space-y-2 px-2">
             <img
@@ -149,18 +149,20 @@
         </div>
       </section>
       <!--mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm why Choose us mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
-      <section class="mt-28 bg-[#fafdfc] pt-32">
+      <section class="lg:mt-28 mt-14 bg-[#fafdfc] pt-32">
         <div class="container mx-auto lg:px-11 px-5 md:px-5">
-          <div class="grid lg:grid-cols-3 gap-12 lg:h-[39rem] md:h-[65rem]">
+          <div
+            class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:h-[45rem] md:h-screen"
+          >
             <!--mmmmmmmmmmmmmmmmmmmmmm  Recommended services we offer mmmmmmmmmmmmmmmmm-->
             <div
-              class="bg-[#f2f2f2] rounded-lg py-0 lg:h-[75vh] xl:h-4/6 lg:col-span-1 col-span-2"
+              class="bg-[#f2f2f2] rounded-lg py-0 lg:h-[75vh] xl:h-4/6 lg:col-span-1 col-span-2 md:col-span-1"
             >
               <h3 class="bg-black text-white text-3xl px-4 py-3 rounded-t-lg">
                 Why Choose Us?
               </h3>
               <ul
-                class="list-item divide-y-2 px-5 space-y-0 py-2 text-2xl text-[rgba(0,0,0,0.5)] hover:bg-[rgba(0,0,0,0.3)] delay-150 cursor-pointer"
+                class="list-item divide-y-2 px-5 space-y-0 py-2 text-2xl text-[rgba(0,0,0,0.5)] cursor-pointer"
               >
                 <li class="py-4 align-middle inline-block">
                   <span><i class="fa fa-check text-[#1eb798]"></i></span>
@@ -190,20 +192,20 @@
               </ul>
             </div>
             <!--mmmmmmmmmmmmmmmmmmmm Recommended sub section mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
-            <div class="col-span-2 mt-8">
+            <div class="lg:col-span-2 mt-8 md:col-span-1 col-span-2">
               <img
                 src="assets/service.jpg"
                 alt="support"
-                class="w-full h-[30%] rounded-md"
+                class="h-72 w-screen rounded-md"
               />
-              <h4 class="text-[#1eb798] text-3xl py-4">
+              <h4 class="text-[#1eb798] lg:text-3xl py-4 md:text-lg">
                 24/7 customer Support helpline
               </h4>
-              <p class="lg:text-6xl md:text-4xl text-2xl">
+              <p class="lg:text-6xl md:text-2xl text-2xl">
                 Mob. +880 1718 542596
               </p>
               <br />
-              <p class="text-[17px] text-[rgba(0,0,0,0.5)]">
+              <p class="lg:text-[17px] text-[rgba(0,0,0,0.5)] md:text-lg">
                 Our support service is Available 24 hours a day. 7 days a week
                 to help to help you buy your tickets.
               </p>
@@ -212,12 +214,16 @@
         </div>
       </section>
       <!--mmmmmmmmmmmmmmmmmmmmmmmmmmmm kitchen repair mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
-      <section class="container mx-auto lg:px-11 md:px-5 px-5 mt-36">
+      <section class="container mx-auto lg:px-11 md:px-5 px-5 lg:mt-36 mt-14">
         <div class="grid lg:grid-cols-2 gap-14">
-          <div class="lg:order-1 order-2 md:order-2">
-            <img src="assets/kitchen.jpg" alt="kitchen" class="h-full w-full" />
+          <div class="lg:order-1 order-2 md:order-2 col-span-1">
+            <img
+              src="assets/kitchen.jpg"
+              alt="kitchen"
+              class="h-auto lg:w-full mx-auto md:w-11/12"
+            />
           </div>
-          <div class="lg:order-2 order-1 md:order-1 mt-8">
+          <div class="lg:order-2 order-1 md:order-1 mt-8 col-span-1">
             <h4 class="lg:text-5xl md:text-3xl text-2xl">Kitchen Repairs</h4>
 
             <ul
@@ -280,20 +286,28 @@
                 </li>
               </ul>
             </aside>
-            <div class="">
-              <img src="assets/bath.jpg" alt="bathroom Repair" class="w-full" />
+            <div class="col-span-1">
+              <img
+                src="assets/bath.jpg"
+                alt="bathroom Repair"
+                class="lg:w-full h-auto md:w-fit mx-auto"
+              />
             </div>
           </div>
         </div>
       </section>
 
       <!--mmmmmmmmmmmmmmmmmmmmmmmmmmmm basemrnt repair mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
-      <section class="container mx-auto lg:px-11 md:px-5 px-5 mt-36">
-        <div class="grid lg:grid-cols-2 gap-14">
-          <div class="lg:order-1 order-2 md:order-2">
-            <img src="assets/base.jpg" alt="kitchen" class="h-full w-full" />
+      <section class="container mx-auto lg:px-11 md:px-5 px-5 lg:mt-36 mt-14">
+        <div class="grid lg:grid-cols-2 gap-14 md:grid-cols-1">
+          <div class="lg:order-1 order-2 md:order-2 col-span-1">
+            <img
+              src="assets/base.jpg"
+              alt="kitchen"
+              class="lg:h-full lg:w-full md:w-11/12 md:h-fit mx-auto"
+            />
           </div>
-          <div class="lg:order-2 order-1 md:order-1 mt-8">
+          <div class="lg:order-2 order-1 md:order-1 mt-8 col-span-1">
             <h4 class="lg:text-5xl md:text-3xl text-2xl">
               Basement & Outdoors
             </h4>
@@ -328,7 +342,9 @@
       </section>
       <!--mmmmmmmmmmmmmmmmmmm contact us section mmmmmmmmmmmmmmmmmmmmmmmm-->
       <section class="bg-[#1e3953]">
-        <div class="container mx-auto lg::px-11 md:px-5 px-5 mt-44">
+        <div
+          class="container mx-auto lg::px-11 md:px-5 px-5 lg:mt-44 md:mt-14 mt-10"
+        >
           <div class="flex justify-between py-12 lg:flex-row flex-col">
             <h5 class="text-white lg:text-3xl text-xl lg:mb-0 mb-3">
               Plumbing emergency? Available 24/7 all over the world.
@@ -344,7 +360,7 @@
       </section>
     </main>
     <!--mmmmmmmmmmmmmmmmmmmmmmmmm footer section mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
-    <footer class="container mx-auto lg:px-11 md:px-5 px-5 mt-36">
+    <footer class="container mx-auto lg:px-11 md:px-5 px-5 mt-28">
       <div class="flex justify-between lg:flex-row flex-row flex-wrap">
         <div class="-mt-12 lg:block hidden">
           <img
